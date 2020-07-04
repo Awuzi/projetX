@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mainpage {
+  height: 100vh;
+  display: flex;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  transition: all .5s;
+}
+
+hr.divider {
+  max-width: 5rem;
+  margin: auto;
+  border-width: 0.2rem;
+  border-color: floralwhite;
+}
+
+
+section:hover {
+  flex: 2;
+}
+
+section h1 {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-weight: 600;
+  padding: 12px 32px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.landing {
+  background: rgba(0, 0, 0, 0.4) url("http://gamesync.us/wp-content/uploads/2017/03/csgo_winners_eleague-1080x675.jpg") center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}

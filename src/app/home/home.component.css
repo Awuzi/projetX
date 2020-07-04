@@ -1,0 +1,61 @@
+* {
+  padding:0 ;
+  margin:0 ;
+}
+body {
+  font-family: "Montserrat", sans-serif ;
+}
+
+.mainpage {
+  height: 100vh ;
+  display: flex ;
+}
+
+section {
+  height: 100% ;
+  display: flex ;
+  align-items: center ;
+  justify-content: center ;
+  flex: 1 ;
+  transition: all .5s ;
+}
+
+section:hover {
+  flex: 2 ;
+}
+
+section h1 {
+  background: rgba(0, 0, 0, 0.4) ;
+  color: white ;
+  font-weight: 600;
+  padding: 12px 32px ;
+}
+
+a {
+  text-decoration: none ;
+  color: white ;
+}
+
+.player {
+  background: #2e65ff url("https://d2ix1vn492wbxl.cloudfront.net/post/8d45172b-7095-4e72-ba65-0be80b962af7.jpg") center ;
+  background-size: cover ;
+  background-blend-mode: multiply ;
+}
+
+.organizer {
+  background: #d2ff09 url("https://cdn1.dotesports.com/wp-content/uploads/2019/09/12093024/Astralis-1-1.jpeg") center ;
+  background-size: cover ;
+  background-blend-mode: multiply ;
+}
+
+.sign-in {
+  background: #ff3a38 url("https://cf-images.us-east-1.prod.boltdns.net/v1/static/734546229001/7483d79a-5323-4923-b54c-0523ac33bcaa/a34b0500-516a-4ef6-a46e-42315ff3877e/1920x1080/match/image.jpg") center ;
+  background-size: cover ;
+  background-blend-mode: multiply ;
+}
+
+.my-profile {
+  background: #ff9553 url("/images/sonic.jpg") center ;
+  background-size: cover ;
+  background-blend-mode: multiply ;
+}
